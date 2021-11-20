@@ -1,6 +1,7 @@
-﻿using Microsoft.Win32;
-using System;
+﻿using System;
 using System.Windows;
+using System.Windows.Forms;
+using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
 
 namespace BrowseAndSaveIN
 {
@@ -31,9 +32,12 @@ namespace BrowseAndSaveIN
 
         private void btnSelectFolder_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new System.Windows.Forms.FolderBrowserDialog();
-            System.Windows.Forms.FolderBrowserDialog result = dialog.ShowDialog();
-            tbxFolder.Text = dialog.SelectedPath;
+            var dialog = new FolderBrowserDialog();
+
+
+            if (dialog.ShowDialog().Equals(System.Windows.Forms.DialogResult.OK))
+                tbxFolder.Text = dialog.SelectedPath;
+
         }
     }
 }

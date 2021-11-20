@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Microsoft .NET & Web\\Project\\BrowseAndSaveIN\\BrowseAndSaveIN\\BrowseAndSaveIN.csproj",
+      "projectUniqueName": "A:\\DotNet\\Project\\BrowseAndSaveIN\\BrowseAndSaveIN\\BrowseAndSaveIN.csproj",
       "projectName": "BrowseAndSaveIN",
-      "projectPath": "A:\\Microsoft .NET & Web\\Project\\BrowseAndSaveIN\\BrowseAndSaveIN\\BrowseAndSaveIN.csproj",
+      "projectPath": "A:\\DotNet\\Project\\BrowseAndSaveIN\\BrowseAndSaveIN\\BrowseAndSaveIN.csproj",
       "packagesPath": "C:\\Users\\try\\.nuget\\packages\\",
-      "outputPath": "A:\\Microsoft .NET & Web\\Project\\BrowseAndSaveIN\\BrowseAndSaveIN\\obj\\",
+      "outputPath": "A:\\DotNet\\Project\\BrowseAndSaveIN\\BrowseAndSaveIN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

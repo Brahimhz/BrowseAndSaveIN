@@ -1,5 +1,5 @@
 ﻿BrowseAndSaveIN
-1.0.0.0
+
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 A:\DotNet\Project\BrowseAndSaveIN\BrowseAndSaveIN\App.xaml
 11407045341
 
-5-1794405053
+3-1233169557
 1931685891025
 MainWindow.xaml;
 
